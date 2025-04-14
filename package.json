@@ -1,6 +1,7 @@
 {
   "name": "zomato",
-  "homepage": "https://codewithkrish.com/zomato",
+  "homepage": ".",
+   
   "version": "0.1.0",
   "private": true,
   "dependencies": {
