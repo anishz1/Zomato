@@ -40,23 +40,21 @@ const TabOption = ({ activeTab, setActiveTab }) => {
             <div
               onClick={() => setActiveTab(tabOpt.name)}
               key={tabOpt.id}
-              className={`tab-item absolute-center cur-po ${
-                activeTab === tabOpt.name && "active-tab"
-              }`}
+              className={`tab-item absolute-center cur-po ${activeTab === tabOpt.name && "active-tab"
+                }`}
             >
               <div
                 className="tab-image-container absolute-center "
                 style={{
-                  backgroundColor: `${
-                    activeTab === tabOpt.name ? tabOpt.backdrop : ""
-                  }`,
+                  backgroundColor: `${activeTab === tabOpt.name ? tabOpt.backdrop : ""
+                    }`,
                 }}
               >
-                <img className="tab-image" alt={tabOpt.name} src={activeTab === tabOpt.name ? tabOpt.active_img:tabOpt.inactive_img} />
+                <img className="tab-image" alt={tabOpt.name} src={activeTab === tabOpt.name ? tabOpt.active_img : tabOpt.inactive_img} />
               </div>
               <div className="tab-name">
                 {tabOpt.name}
-                </div>
+              </div>
             </div>
           );
         })}

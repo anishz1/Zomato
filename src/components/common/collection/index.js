@@ -27,7 +27,7 @@ const Collection = ({ list }) => {
         <Slider {...settings}>
           {list.map((item) => (
             <div key={item.id}>
-              <div className="collection-cover">
+              <div className="collection-cover cur-po">
                 <img
                   src={item.cover}
                   alt={item.title}

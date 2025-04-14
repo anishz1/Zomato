@@ -1,5 +1,6 @@
 {
   "name": "zomato",
+  "homepage": "https://codewithkrish.com/zomato",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Have a great code .....",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
